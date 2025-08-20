@@ -8,7 +8,7 @@ export default function Grid() {
         const entry = savedWorkouts[val]
         return entry.isComplete
     })
-
+    
     function handleSave(index, data) {
         // save to local storage and modify the saved workouts state
         const newObj = {
